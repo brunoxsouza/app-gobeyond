@@ -8,6 +8,7 @@ import iconMyAccount from './images/iconMyAccount.png'
 
 import Home from './modules/Home'
 import MyAccount from './modules/MyAccount'
+import Contact from './modules/MyAccount/Contact'
 
 const AppNavigator = () => {
     const { Navigator, Screen } = createBottomTabNavigator()
@@ -34,6 +35,14 @@ const AppNavigator = () => {
             <Screen name="MyAccount" component={MyAccount} 
               options={{
                 title: 'Minha Conta',
+                tabBarIcon: () => (
+                  <Image resizeMode="contain" style={{ height: 25 }} source={iconMyAccount} />
+                )
+              }}  
+            />
+            <Screen name="Contact" component={Contact} 
+              options={{
+                title: 'Contato',
                 tabBarIcon: () => (
                   <Image resizeMode="contain" style={{ height: 25 }} source={iconMyAccount} />
                 )
