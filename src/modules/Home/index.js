@@ -5,6 +5,7 @@ import HeaderBar from './components/HeaderBar'
 import PrimaryBannerSlider from './components/PrimaryBannerSlider'
 import SecondBanner from './components/SecondBanner'
 import FourthBanner from './components/FourthBanner'
+import BuyProduct from './components/BuyProduct'
 
 import services from '../../services'
 
@@ -34,6 +35,7 @@ const Home = () => {
       <ScrollView>
         <PrimaryBannerSlider data={banners[0]?.data || []} />
         <SecondBanner data={banners[1]?.data || []} />
+        <BuyProduct />
         <FourthBanner data={banners[3]?.data || []} />
       </ScrollView>
     </SafeAreaView>
