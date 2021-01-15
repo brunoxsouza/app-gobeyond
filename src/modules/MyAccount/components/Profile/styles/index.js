@@ -55,8 +55,6 @@ export const TextHome = styled.Text({
 })
 
 export const ButtonCategories = styled.TouchableOpacity({
-  
-
   flex: 1,
   flexDirection: 'row',
   alignItems: 'center',
