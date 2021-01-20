@@ -1,70 +1,29 @@
 import styled from 'styled-components/native'
 
 export const Container = styled.SafeAreaView({
-  backgroundColor: '#FFF',
-  height: '100%',
-  top: 100
+  paddingHorizontal: 31.5
 })
 
-export const EmailText = styled.Text({
-  fontSize: 14,
-  left: 31,
+export const Text = styled.Text({
+  marginTop: 22.5,
+  marginBottom: 8.5
 })
 
-export const NameText = styled.Text({
-  fontSize: 14,
-  left: 31,
-
-})
-
-export const AssuntoText = styled.Text({
-  fontSize: 14,
-  left: 31,
-})
-
-export const InputEmail = styled.TextInput({
-  width: 320,
-
-  borderColor: 'gray', 
-  borderTopWidth: 0,
-  borderRightWidth: 0,
-  borderLeftWidth: 0,
-
-  borderWidth: 1,
-  left: 31,
-  right: 31,
-})
-
-export const InputNome = styled.TextInput({
-  width: 320,
-  borderColor: 'gray', 
-  borderTopWidth: 0,
-  borderRightWidth: 0,
-  borderLeftWidth: 0,
-
-  borderWidth: 1,
-  right: 31,
-  left: 31,
-})
-
-export const InputAssunto = styled.TextInput({
-  width: 320,
-  borderColor: 'gray', 
-  borderTopWidth: 0,
-  borderRightWidth: 0,
-  borderLeftWidth: 0,
-  borderWidth: 1,
-  left: 31,
+export const Input = styled.TextInput({
+  borderBottomColor: '#999',
+  borderBottomWidth: 1,
+  paddingVertical: 7.5,
+  fontSize: 14
 })
 
 export const ButtonConfirm = styled.TouchableOpacity({
   backgroundColor: '#000',
-
+  top: 635,
   width: 415,
   height: 72,
-  top: 30,
+  position: 'absolute',
   alignItems: 'center',
-  justifyContent: 'center',
+  justifyContent: 'center'
 })
 
 export const ButtonText = styled.Text({
@@ -99,4 +58,12 @@ export const CheckboxFalse = styled.View({
 export const CheckText = styled.Text({
   marginLeft: 18,
   fontSize: 14
+})
+
+export const TextArea = styled.TextInput({
+  borderBottomColor: '#999',
+  borderBottomWidth: 1,
+  paddingVertical: 7.5,
+  fontSize: 14,
+  height: 100
 })
