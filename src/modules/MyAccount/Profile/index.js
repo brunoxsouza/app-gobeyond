@@ -2,12 +2,12 @@ import React from 'react'
 import { Image, View, SafeAreaView } from 'react-native'
 import { Container, ContainerMenu, ContainerMenuButtons, ProfileImage, TextProfile, ViewLinha, ButtonHome, ButtonCategories, ButtonHeart, ButtonBag, ButtonOrders, TextHome, TextCategories, TextHeart, TextBag, TextOrders } from './styles'
 
-import iconAccount from '../../../../images/imageAccount.png'
-import iconHome from '../../../../images/iconHome.png'
-import iconCategories from '../../../../images/iconCategories.png'
-import iconHeart from '../../../../images/iconHeart.png'
-import iconBag from '../../../../images/iconBag.png'
-import iconOrders from '../../../../images/iconOrders.png'
+import iconAccount from '../../../images/imageAccount.png'
+import iconHome from '../../../images/iconHome.png'
+import iconCategories from '../../../images/iconCategories.png'
+import iconHeart from '../../../images/iconHeart.png'
+import iconBag from '../../../images/iconBag.png'
+import iconOrders from '../../../images/iconOrders.png'
 
 const Profile = () => {
 

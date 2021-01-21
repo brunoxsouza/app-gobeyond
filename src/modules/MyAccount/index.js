@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 
-import Profile from './components/Profile'
+import Profile from '../MyAccount/Profile'
 
 
 const MyAccount = () => {
