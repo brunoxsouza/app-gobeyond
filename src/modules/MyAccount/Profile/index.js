@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, View, SafeAreaView } from 'react-native'
+import { Image, SafeAreaView } from 'react-native'
 import { Container, ContainerMenu, ContainerMenuButtons, ProfileImage, TextProfile, ViewLinha, ButtonHome, ButtonCategories, ButtonHeart, ButtonBag, ButtonOrders, TextHome, TextCategories, TextHeart, TextBag, TextOrders } from './styles'
 
 import iconAccount from '../../../images/imageAccount.png'
