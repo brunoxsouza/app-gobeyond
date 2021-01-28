@@ -5,12 +5,13 @@ const { width } = Dimensions.get('window')
 
 export const Container = styled.SafeAreaView({
     flex: 1,
-    paddingTop: 6,
 })
 
 export const ContainerSlide = styled.View({
     width,
-    height: 361,
+    height: 344,
+    marginTop: 54,
+    marginBottom: 51,
 })
 
 export const ImageSlide = styled.Image({
@@ -21,8 +22,8 @@ export const ImageSlide = styled.Image({
 export const ButtonMore = styled.TouchableOpacity({
     width: 147,
     height: 33,
-    top: 340,
-    right: 133,
+    top: 328,
+    right: 116,
     position: 'absolute',
     backgroundColor: '#000',
     alignItems: 'center',
