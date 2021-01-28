@@ -8,7 +8,7 @@ import iconMyAccount from './images/iconMyAccount.png'
 
 import Home from './modules/Home'
 import MyAccount from './modules/MyAccount'
-import Contact from './modules/MyAccount/Contact'
+import Contact from './modules/Contact'
 
 const AppNavigator = () => {
     const { Navigator, Screen } = createBottomTabNavigator()
