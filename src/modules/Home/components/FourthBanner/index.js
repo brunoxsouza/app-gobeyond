@@ -6,7 +6,7 @@ import { Container, ContainerSlide, ImageSlide, ButtonMore, TextButtonMore } fro
 const Slide = ({ item }) => (
     <ContainerSlide >
         <ImageSlide source={{ uri: item.image }} />
-        <ButtonMore>
+        <ButtonMore onPress={() => { }}>
             <TextButtonMore>CONFIRA</TextButtonMore>
         </ButtonMore>
     </ContainerSlide>
