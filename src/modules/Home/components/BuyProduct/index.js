@@ -1,10 +1,11 @@
 import React from 'react'
-import { Container, ImageProductBanner, ButtonOption, ButtonProduct, ButtonOptionText, TextProductName, TextDescount, TextPrice, TextParcel,ButtonProductText } from './styles'
+import { Container, ImageProductBanner, ButtonOption, ButtonBuyProduct, ButtonOptionText, TextProductName, TextDescount, TextPrice, TextParcel,ButtonProductText } from './styles'
 
+import iconProduct from '../../../../images/iconProduct.png'
 
 const BuyProduct = () => (
   <Container>
-    <ImageProductBanner source={{ uri: 'http://ec2-54-237-155-186.compute-1.amazonaws.com/storage/images/banners/Fyy8pg6wMdgPeYnwZqZpywGdJDR29y5c2UAUevkP.jpg' }} />
+    <ImageProductBanner source={{ iconProduct }} />
     <ButtonOption onPress={() => { }}>
       <ButtonOptionText>+3 opções</ButtonOptionText>
     </ButtonOption>
@@ -13,11 +14,11 @@ const BuyProduct = () => (
     <TextPrice>Por: R$60,80</TextPrice>
     <TextParcel>2x de R$30,40</TextParcel>
 
-    <ButtonProduct onPress={() => { }}>
+    <ButtonBuyProduct onPress={() => { }}>
       <ButtonProductText>
         COMPRAR
       </ButtonProductText>
-    </ButtonProduct>
+    </ButtonBuyProduct>
   </Container>
 )
 
