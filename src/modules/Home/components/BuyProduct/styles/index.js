@@ -61,16 +61,16 @@ export const TextParcel = styled.Text({
   justifyContent: 'center',
 })
 
-export const ButtonProduct = styled.TouchableOpacity({
+export const ButtonBuyProduct = styled.TouchableOpacity({
   width: 135,
   height: 28,
   marginTop: 20,
   backgroundColor: '#000',
   alignItems: 'center',
   justifyContent: 'center',
-  fontSize: 12
 })
 
 export const ButtonProductText = styled.Text({
   color: '#FFF',
+  fontSize: 12
 })
